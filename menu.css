@@ -1,0 +1,41 @@
+menu {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.menu {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 60px;
+  height: auto;
+  padding: 0 15px;
+  border-bottom: 1px solid rgb(219, 217, 217);
+  cursor: pointer;
+
+
+
+}
+
+.menu-item {
+  flex-shrink: 0;
+  padding: 10px;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+
+
+.menu-item:hover {
+  color: rgb(171, 12, 171);
+  background-color: rgba(176, 167, 167, 0.3);
+  opacity: 0.7;
+  padding: 10px;
+  border-radius: 8px;
+
+}

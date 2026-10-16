@@ -1,0 +1,477 @@
+.image {
+  position: relative;
+
+}
+
+.big-img {
+  width: 100%;
+}
+
+.ad-box {
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  left: 60px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  
+
+}
+
+.ad-box_1 {
+  margin: 0;
+  margin-bottom: 10px;
+
+}
+
+.ad-box_2 {
+  color: rgb(132, 130, 130);
+  font-size: small;
+}
+
+.bulb {
+  width: 30px;
+  padding-bottom: 20px;
+
+}
+
+.bulb-box {
+  flex: 0 0 30px;
+}
+
+.bulb-neighbor {
+  flex: 1;
+  min-width: 0;
+}
+
+
+
+
+.bulb-neighbor-1 {
+  margin: 0;
+  width: 100%;
+
+
+}
+
+.bulb-neighbor-2 {
+  margin-top: 5px;
+  display: inline-block;
+  font-size: medium;
+  color: grey;
+
+}
+
+.topics-search-bar {
+  display: block;
+  border: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 40px;
+  padding-left: 0 15px;
+  border-radius: 20px;
+
+
+}
+
+.section-bottom input {
+  padding-left: 20px;
+}
+
+
+
+.section-bottom {
+  padding-left: 30px;
+  padding-top: 20px;
+
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px 0;
+  min-width: 0;
+}
+
+
+.section-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  min-width: 0;
+}
+
+
+
+.primary-container {
+  flex: 1 1 220px;
+  min-width: 0;
+  max-width: 300px;
+  height: auto;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+
+}
+
+.primary-container:hover {
+  background-color: rgb(225, 224, 225);
+}
+
+
+.primary-top {
+
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+
+
+
+}
+
+
+.img-1 {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.primary-top__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+}
+
+h3,
+h5 {
+  margin: 0;
+}
+
+.primary-top__bottom,
+.primary-bottom {
+  min-width: 0;
+}
+
+
+.primary-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.primary-bottom__top {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.primary-bottom__top__1 {
+  font-weight: bold;
+  background-color: #D1F4EC;
+  color: #1C4946;
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.primary-bottom__top__2 {
+  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  font-size: x-small;
+  padding: 1px 5px 1px 5px;
+  border-radius: 4px;
+  color: rgb(119, 117, 117);
+
+
+}
+
+.primary-bottom__top__3 {
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  font-size: x-small;
+  padding: 2px 10px 2px 10px;
+  border-radius: 4px;
+  color: rgb(119, 117, 117);
+
+
+}
+
+span {
+  color: goldenrod;
+}
+
+.primary-bottom__bottom__1 {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.primary-bottom__bottom__2 {
+  color: rgb(119, 117, 117);
+  display: inline-block;
+  text-decoration: line-through;
+}
+
+.course-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  min-width: 0;
+  flex-wrap: wrap;
+
+}
+
+.course-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+
+
+.quote-img {
+  width: 50px;
+
+
+}
+
+.person-1 {
+  width: 50px;
+  border-radius: 50px;
+
+}
+
+.review-box {
+
+  flex: 1 1 220px;
+  min-width: 0;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(185, 124, 235, 0.5),
+    0px 5px 20px rgba(0, 0, 0, 0.3);
+  background-color: #f7f9fa;
+  color: grey;
+  cursor: pointer;
+
+}
+
+.review-box:hover {
+  background-color: rgb(225, 224, 225);
+  
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+p {
+  margin: 0;
+
+}
+
+.review-box-bottom_1,
+.review-box-bottom_2,
+.review-box-bottom_3,
+.review-box-bottom_4 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.detail-1 {
+  color: black;
+}
+
+.detail-2 {
+  font-size: 13px;
+  color: rgb(89, 84, 84);
+}
+
+.detail-3 {
+  font-size: 13px;
+  color: rgb(63, 61, 61);
+}
+
+
+.review-section {
+
+  padding-top: 40px;
+  width: 100%;
+  min-width: 0;
+
+}
+
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+
+.review-box-bottom_2 {
+  margin-top: 90px;
+
+}
+
+.review-box-bottom_3 {
+  margin-top: 70px;
+
+}
+
+.review-box-bottom_4 {
+  margin-top: 30px;
+
+}
+
+
+.footer {
+  margin-top: 50px;
+  width: 100%;
+
+
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(24, 24, 52);
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+
+}
+
+.column-1 {
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.list {
+  list-style: none;
+  padding-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+.list:hover {
+  text-decoration: underline;
+}
+
+.list-box {
+  padding: 0;
+}
+
+.list-heading {
+  font-size: 18px;
+
+
+}
+
+
+.footer-3 {
+  margin-top: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(24, 24, 52);
+  color: white;
+
+}
+
+.footer-image {
+  width: 100px;
+}
+
+.bottom-col {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.col-2 {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.footer-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(23, 23, 54);
+  height: 90px;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 1px;
+
+
+}
+
+.brand-img-1 {
+  width: 100px;
+  padding: 5px;
+
+}
+
+.brand-img-2 {
+  width: 40px;
+  padding: 5px;
+
+}
+
+.brand-img-3 {
+  width: 100px;
+  padding: 5px;
+
+}
+
+.brand-img-4 {
+  width: 100px;
+  padding: 5px;
+
+}
+
+.footer-1-images {
+  background-color: rgb(23, 23, 54);
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.footer-1-one {
+  color: white;
+}
+
+.bottom-span {
+  color: oklch(86.3% .0733 291.71);
+}

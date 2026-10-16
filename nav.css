@@ -1,0 +1,122 @@
+ * {
+   box-sizing: border-box;
+ }
+
+ html,
+ body {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   max-width: 100%;
+   font-family: "Noto Sans", sans-serif;
+ }
+
+
+ img {
+   max-width: 100%;
+   height: auto;
+ }
+
+ .content {
+   width: 100%;
+   max-width: 100%;
+   margin: 0;
+   padding: 20px;
+   min-width: 0;
+ }
+
+ input:focus {
+   outline: none;
+ }
+
+
+ button {
+   display: inline-block;
+   margin-left: 20px;
+   opacity: 0.7;
+   border: none;
+   background-color: white;
+   padding: 10px 10px;
+   cursor: pointer;
+
+ }
+
+ button:hover {
+   color: rgb(171, 12, 171);
+   background-color: rgba(176, 167, 167, 0.3);
+   display: inline-block;
+   border-radius: 8px;
+   padding: 10px 10px;
+
+
+ }
+
+ nav {
+
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 8px;
+   height: auto;
+   min-height: 70px;
+   padding: 15px;
+   background-color: white;
+   width: 100%;
+   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+
+ }
+
+ .udemy-img {
+   width: 90px;
+   max-width: 100%;
+   margin: 0 10px;
+
+
+ }
+
+ .bar {
+   flex: 1 1 200px;
+   min-width: 0;
+   max-width: 100%;
+   padding: 12px 20px;
+   margin: 0;
+   border-radius: 25px;
+   border: none;
+   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+ }
+
+ .one {
+   color: rgb(115, 24, 168);
+   border-style: solid;
+   border-width: 1px;
+   padding: 8px 12px;
+   border-radius: 10px;
+   font-weight: bold;
+
+ }
+
+ .one:hover {
+   background-color: rgba(198, 194, 194, 0.3);
+   padding: 8px 12px;
+
+   color: rgb(115, 24, 168);
+
+ }
+
+ .two {
+   background-color: rgb(115, 24, 168);
+   border-style: solid;
+   border-width: 1px;
+   padding: 8px 12px;
+   border-radius: 10px;
+   font-weight: bold;
+   color: white;
+
+ }
+
+ .two:hover {
+   background-color: rgb(179, 135, 220);
+   color: white;
+   padding: 8px 12px;
+
+ }
