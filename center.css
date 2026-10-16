@@ -107,19 +107,17 @@
 
 
 .primary-container {
-  flex: 1 1 220px;
-  min-width: 0;
-  max-width: 300px;
-  height: auto;
-  background-color: transparent;
-  padding: 10px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+    flex: 1 1 220px;
+    min-width: 0;
+    max-width: 300px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 
 
 }
@@ -333,7 +331,7 @@ p {
 
 
 .review-box-bottom_2 {
-  margin-top: 90px;
+  margin-top: 130px;
 
 }
 
@@ -343,7 +341,7 @@ p {
 }
 
 .review-box-bottom_4 {
-  margin-top: 30px;
+  margin-top: 50px;
 
 }
 
